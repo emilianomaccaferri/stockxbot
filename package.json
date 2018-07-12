@@ -1,0 +1,35 @@
+{
+  "name": "stockxbot",
+  "version": "1.0.0",
+  "description": "Web scraper for StockX",
+  "main": "bot.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneralApathy/stockxbot.git"
+  },
+  "keywords": [
+    "stockx",
+    "hype",
+    "bot",
+    "nodejs",
+    "telegram"
+  ],
+  "author": "Emiliano Maccaferri",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/GeneralApathy/stockxbot/issues"
+  },
+  "homepage": "https://github.com/GeneralApathy/stockxbot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "nodeogram": "0.0.7",
+    "promise": "^8.0.1",
+    "puppeteer": "^1.5.0"
+  }
+}
